@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monte Carlo Simulation on Flood Property</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="container">
+        <p class="eyebrow">Actuarial Catastrophe Risk Model</p>
+        <h1>Monte Carlo Simulation on Flood Property</h1>
+        <p class="subtitle">
+          Dynamic 50-state flood risk model evaluating pure premium adequacy,
+          tail-risk exposure, and climate-adjusted loss severity.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="../Monte_Carlo_50_States.csv">Download CSV Results</a>
+          <a class="button secondary" href="https://github.com/SleepyCoder18/Monte-Carlo-Simulation-on-Flood-Property" target="_blank" rel="noreferrer">View GitHub Repo</a>
+        </div>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="stats">
+        <div class="card">
+          <h3>Historical Pure Premium</h3>
+          <p>$2,185,504</p>
+        </div>
+        <div class="card">
+          <h3>Climate-Adjusted Pure Premium</h3>
+          <p>$3,708,578</p>
+        </div>
+        <div class="card">
+          <h3>Portfolio Rate Inadequacy</h3>
+          <p>+69.7%</p>
+        </div>
+        <div class="card">
+          <h3>Climate 1-in-100 PML</h3>
+          <p>$5,525,681</p>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Key Findings</h2>
+        <ul>
+          <li>The climate-adjusted pure premium exceeds the historical baseline by approximately 69.7%.</li>
+          <li>Expected tail losses materially increase under climate-impacted scenarios.</li>
+          <li>The output data set supports actuarial stress testing across 50 U.S. states.</li>
+        </ul>
+      </section>
+
+      <section class="panel chart-panel">
+        <h2>Exceedance Curve</h2>
+        <img src="../EP_Curve_Shift.png" alt="Exceedance probability curve" />
+      </section>
+    </main>
+  </body>
+</html>
